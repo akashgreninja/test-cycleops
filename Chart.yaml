@@ -1,0 +1,5 @@
+apiVersion: v2
+name: sample-template
+description: A minimal Cyclops template using Helm-style YAML
+version: 0.1.0
+appVersion: "1.0"
