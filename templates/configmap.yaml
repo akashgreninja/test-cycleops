@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Values.projectName }}-config
+data:
+  author: "{{ .Values.author }}"
+  message: "Hello from {{ .Values.projectName }}!"
