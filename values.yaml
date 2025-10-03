@@ -1,0 +1,6 @@
+projectName: "my-sample-app"
+author: "Your Name"
+replicas: 1
+image:
+  repository: nginx
+  tag: latest
